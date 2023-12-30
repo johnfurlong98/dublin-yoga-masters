@@ -1,3 +1,6 @@
+ /* Google fonts import */
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,500;1,6..12,300;1,6..12,400;1,6..12,500&display=swap');
+
 /* Asterink wildcard selector overides default styles added by the browser*/
 * {
     padding: 0;
@@ -12,6 +15,7 @@ body {
     flex-direction: column;
     /* generic project styles */
     color: black;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 /* Header */
