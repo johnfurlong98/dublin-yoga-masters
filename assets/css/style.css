@@ -1,5 +1,5 @@
  /* Google fonts import */
- @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,500;1,6..12,300;1,6..12,400;1,6..12,500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
 
 /* Asterink wildcard selector overides default styles added by the browser*/
 * {
@@ -21,6 +21,10 @@ body {
 /* Header */
 header {
     background-color: lightgreen;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
 }
 
 /* main content */
