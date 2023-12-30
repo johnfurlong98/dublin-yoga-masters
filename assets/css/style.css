@@ -1,40 +1,45 @@
  /* Google fonts import */
  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
 
-/* Asterink wildcard selector overides default styles added by the browser*/
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+ /* Asterink wildcard selector overides default styles added by the browser*/
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ /* general style */
+ body {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     /* generic project styles */
+     color: white;
+     font-family: 'Nunito Sans', sans-serif;
+ }
+
+ /* Header */
+ header {
+     background-color: black;
+     padding: 0 1rem;
+     position: fixed;
+     z-index: 99;
+     width: 100%;
+     box-shadow: 0 3px 3px lightslategrey;
 }
 
-/* general style */
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* generic project styles */
-    color: black;
-    font-family: 'Nunito Sans', sans-serif;
-}
+ h1 {
+     font-family: 'Lato', sans-serif;
+ }
 
-/* Header */
-header {
-    background-color: lightgreen;
-}
+ /* main content */
+ main {
+     background-color: lightblue;
+     /*main element takes up space and psushes footer down*/
+     flex: 1 0 auto;
+ }
 
-h1 {
-    font-family: 'Lato', sans-serif;
-}
-
-/* main content */
-main {
-    background-color: lightblue;
-    /*main element takes up space and psushes footer down*/
-    flex: 1 0 auto;
-}
-
-/* footer */
-footer {
-    background-color: lightpink;
-}
+ /* footer */
+ footer {
+     background-color: lightpink;
+ }
