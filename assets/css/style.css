@@ -1,0 +1,21 @@
+/* Asterink wildcard selector overides default styles added by the browser*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: lightgreen;
+}
+
+/* main content */
+main {
+    background-color: lightblue;
+}
+
+/* footer */
+footer {
+    background-color: lightpink;
+}
