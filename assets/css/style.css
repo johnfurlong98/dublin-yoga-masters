@@ -21,7 +21,8 @@
  /* Header */
  header {
      background-color: black;
-     padding: 0 1rem;
+     padding: 0 2rem;
+     height: 35px;
      position: fixed;
      z-index: 99;
      width: 100%;
@@ -39,8 +40,9 @@
  h1 {
      font-family: 'Lato', sans-serif;
      text-transform: uppercase;
-     letter-spacing: 2px;
+     letter-spacing: 1px;
      color: white;
+     font-size: 130%;
 
  }
 
@@ -87,7 +89,7 @@
      background-color: lightslategrey;
      /*main element takes up space and psushes footer down*/
      flex: 1 0 auto;
-     margin-top: 114px;
+     margin-top: 37px;
  }
 
  /* footer */
