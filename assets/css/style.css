@@ -39,6 +39,19 @@
      color: white;
 
  }
+    #menu {
+        font-size: 115%;
+        letter-spacing: 3px;
+        list-style-type: none;
+    }
+
+    #menu > li {
+        margin-bottom: 0.8em;
+    }
+
+    .active {
+        border-bottom: 1px solid white;
+    }
 
  /* main content */
  main {
