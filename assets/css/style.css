@@ -87,6 +87,7 @@
      background-color: lightslategrey;
      /*main element takes up space and psushes footer down*/
      flex: 1 0 auto;
+     margin-top: 114px;
  }
 
  /* footer */
