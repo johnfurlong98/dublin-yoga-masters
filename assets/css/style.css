@@ -27,14 +27,22 @@
      width: 100%;
      box-shadow: 0 3px 3px lightslategrey;
 }
+    header a {
+        text-decoration: none;
+        color: white;
+    }
 
  h1 {
      font-family: 'Lato', sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     color: white;
+
  }
 
  /* main content */
  main {
-     background-color: lightblue;
+     background-color: lightslategrey;
      /*main element takes up space and psushes footer down*/
      flex: 1 0 auto;
  }
