@@ -22,11 +22,10 @@
  header {
      background-color: black;
      padding: 0 2rem;
-     height: 40px;
      position: fixed;
      z-index: 99;
      width: 100%;
-     box-shadow: 0 3px 3px lightslategrey;
+     box-shadow: 0 4px 4px lightslategrey;
      display: flex;
      justify-content: space-between;
      align-items: baseline;
@@ -42,7 +41,6 @@
      text-transform: uppercase;
      letter-spacing: 1px;
      color: white;
-     font-size: 110%;
 
  }
 
@@ -89,10 +87,34 @@
      background-color: lightslategrey;
      /*main element takes up space and psushes footer down*/
      flex: 1 0 auto;
-     margin-top: 37px;
+     margin-top: 60px;
  }
 
  /* footer */
  footer {
      background-color: lightpink;
+ }
+
+ /* Media query for tablets and larger (768px and larger) */
+ @media screen and (min-width: 768px) {
+    /* header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-lable {
+        display: none;
+    }
  }
