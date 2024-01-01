@@ -117,8 +117,24 @@
     .nav-toggle-lable {
         display: none;
     }
+    
+    logo {
+        font-size: 200%;
+        line-height: 75px;
+        margin: 0 0.5rem ;
+    }
+
+    /* Main content */
 
     main {
-        margin-top: 56px;
+        /*to move the main content down for the larger header */
+        margin-top: 53px;
     }
+
+    /* Media query for Laptops and desktops (992px and larger) */
+ @media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid white;
+    }
+ }
  }
