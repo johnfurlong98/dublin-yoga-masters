@@ -22,7 +22,7 @@
  header {
      background-color: black;
      padding: 0 2rem;
-     height: 35px;
+     height: 40px;
      position: fixed;
      z-index: 99;
      width: 100%;
@@ -42,7 +42,7 @@
      text-transform: uppercase;
      letter-spacing: 1px;
      color: white;
-     font-size: 130%;
+     font-size: 110%;
 
  }
 
