@@ -18,6 +18,15 @@
      font-family: 'Nunito Sans', sans-serif;
  }
 
+ h1,
+ h2,
+ h3 {
+     font-family: 'Lato', sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     color: white;
+ }
+
  /* Header */
  header {
      background-color: black;
@@ -34,14 +43,6 @@
  header a {
      text-decoration: none;
      color: white;
- }
-
- h1 {
-     font-family: 'Lato', sans-serif;
-     text-transform: uppercase;
-     letter-spacing: 1px;
-     color: white;
-
  }
 
  #menu {
@@ -69,17 +70,18 @@
      display: none;
      top: 100%;
  }
+
  /* nav toggle */
  #nav-toggle:checked~nav {
-    display: block;
+     display: block;
  }
 
  #nav-toggle {
-    display: none;
+     display: none;
  }
 
  .nav-toggle-label {
-    font-size: 2rem;
+     font-size: 2rem;
  }
 
  /* main content */
@@ -89,73 +91,99 @@
      margin-top: 117px;
  }
 
- /* hero section */
+ /* hero image */
  #hero {
-    height: 100vh;
-    width: 100%;
-    background: url(../images/ezgif.com-jpg-to-webp-converter.webp) no-repeat center center/cover;
-    background-size: cover;
+     height: 100vh;
+     width: 100%;
+     background: url(../images/ezgif.com-jpg-to-webp-converter.webp) no-repeat center center/cover;
+     background-size: cover;
+     position: relative;
+ }
+
+ #cover-text {
+     /* rgba value makes it semi transparent*/
+     background-color: rgba(196, 142, 111, 0.5);
+     font-size: 120;
+     position: absolute;
+     bottom: 100px;
+     width: 75%;
+     min-height: 180px;
+     padding-top: 50px;
+     padding-left: 10px;
+ }
+
+ #cover-text > h2, #cover-text > h3 {
+    color: black;
  }
 
  /* footer */
- footer{
-    background-color: black;
+ footer {
+     background-color: black;
  }
 
  #social-media {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+     text-align: center;
+     padding: 20px 0;
+     display: flex;
+     justify-content: space-evenly;
+     list-style-type: none;
  }
 
  #social-media i {
-    font-size: 160%;
-    padding: 5%;
-    color: white;
+     font-size: 160%;
+     padding: 5%;
+     color: white;
  }
 
  /* Media query for tablets and larger (768px and larger) */
  @media screen and (min-width: 768px) {
-    /* header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
 
-    #menu {
-        display: flex;
-    }
+     /* header */
+     nav {
+         display: block;
+         position: relative;
+         box-shadow: none;
+         width: fit-content;
+         padding-right: 1rem;
+     }
 
-    #menu > li {
-        padding-left: 1rem;
-    }
+     #menu {
+         display: flex;
+     }
 
-    .nav-toggle-lable {
-        display: none;
-    }
-    
-    logo {
-        font-size: 200%;
-        line-height: 75px;
-        margin: 0 0.5rem ;
-    }
+     #menu>li {
+         padding-left: 1rem;
+     }
 
-    /* Main content */
+     .nav-toggle-lable {
+         display: none;
+     }
 
-    main {
-        /*to move the main content down for the larger header */
-        margin-top: 53px;
-    }
+     logo {
+         font-size: 200%;
+         line-height: 75px;
+         margin: 0 0.5rem;
+     }
 
-    /* Media query for Laptops and desktops (992px and larger) */
- @media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid white;
-    }
- }
+     /* Main content */
+
+     main {
+         /*to move the main content down for the larger header */
+         margin-top: 53px;
+     }
+
+     /* hero image */
+     #cover-text {
+        width: 400px;
+        right: 150px;
+        padding-left: 60px;
+        font-size: 150%;
+     }
+
+     /* Media query for Laptops and desktops (992px and larger) */
+     @media screen and (min-width: 992px) {
+         #menu a:hover {
+             border-bottom: 1px solid white;
+         }
+     }
  }
