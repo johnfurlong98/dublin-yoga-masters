@@ -89,6 +89,7 @@
      /*main element takes up space and pushes footer down*/
      flex: 1 0 auto;
      margin-top: 117px;
+     background-color: lightgray;
  }
 
  /* hero image */
