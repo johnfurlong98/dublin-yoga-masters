@@ -112,9 +112,41 @@
      padding-left: 10px;
  }
 
- #cover-text > h2, #cover-text > h3 {
-    color: black;
+ #cover-text>h2,
+ #cover-text>h3 {
+     color: black;
  }
+
+ /* Reasons section */
+#reasons {
+    width: 95%;
+    margin: 20px auto;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2rem; 
+}
+
+#pros-physical,
+#pros-mental {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+#pros p {
+    padding: 0 10px; 
+    color: white;
+}
+
+#pros hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 10px 0;
+}
 
  /* footer */
  footer {
@@ -174,10 +206,26 @@
 
      /* hero image */
      #cover-text {
-        width: 400px;
-        right: 150px;
-        padding-left: 60px;
-        font-size: 150%;
+         width: 400px;
+         right: 150px;
+         padding-left: 60px;
+         font-size: 150%;
+     }
+
+    
+     /* Footer */
+     #social-networks {
+         text-align: center;
+         padding: 20px 0;
+         display: flex;
+         justify-content: space-evenly;
+         list-style-type: none;
+     }
+
+     #social-networks i {
+         font-size: 160%;
+         padding: 5%;
+         color: #3a3a3a;
      }
 
      /* Media query for Laptops and desktops (992px and larger) */
