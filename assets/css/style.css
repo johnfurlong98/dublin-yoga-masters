@@ -234,7 +234,11 @@
 
  /* Media query for large or landscaped phones (576px and up)*/
  @media screen and (min-width: 576px) {
-     #photos {
+    #hero{
+        margin-top: -78px;
+    } 
+    
+    #photos {
          margin-top: -78px;
          margin-bottom: -10px;
          column-count: 2;
