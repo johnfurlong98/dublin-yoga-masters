@@ -151,17 +151,67 @@
 
  /* about us page*/
 
- 
 
-     #photos img {
-         width: 100%;
-         line-height: 1em;
-     }
 
-     #photos {
-         line-height: 0;
-     }
- 
+ #photos img {
+     width: 100%;
+     line-height: 1em;
+ }
+
+ #photos {
+     line-height: 0;
+ }
+
+ /* contact us */
+ #contact {
+     background-image: url("../images/pexels-cliff-booth-4057529\ \(1\).webp");
+     background-size: cover;
+     background-position: 75%;
+     padding: 20px 10% 0 10%;
+     flex-grow: 1;
+ }
+
+
+ #contact-form {
+     color: black;
+     background-color: rgba(196, 142, 111, 0.5);
+     padding: 30px;
+ }
+
+
+ #contact-form>h2 {
+     color: black;
+     margin-bottom: 20px;
+ }
+
+
+ .text-input {
+     background: transparent;
+     color: white;
+     width: 100%;
+     height: 25px;
+     margin: 5px 0 20px 0;
+     border: 1px solid white;
+     border-radius: 2px;
+     padding: 0 5px;
+ }
+
+
+ .radio-buttons {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+ }
+
+
+ .join-button {
+     margin-top: 20px;
+     border-radius: 2px;
+     padding: 15px 32px;
+     font-size: 100%;
+     background-color: black;
+     color: white;
+ }
 
  /* footer */
  footer {
@@ -185,13 +235,12 @@
  /* Media query for large or landscaped phones (576px and up)*/
  @media screen and (min-width: 576px) {
      #photos {
-        margin-top: -78px;
-        margin-bottom: -10px;
+         margin-top: -78px;
+         margin-bottom: -10px;
          column-count: 2;
          column-gap: 0;
      }
  }
-
 
  /* Media query for tablets and larger (768px and larger) */
  @media screen and (min-width: 768px) {
@@ -260,4 +309,26 @@
              border-bottom: 1px solid white;
          }
      }
- }
+}
+
+ /* Media query for adjusting the contact form on smaller screens (max-width: 767px) */
+@media screen and (max-width: 767px) {
+    /* Styles for screens with a maximum width of 767 pixels (smaller screens) */
+
+    #contact-form {
+        padding: 15px; 
+    }
+
+    .text-input {
+        height: 35px; 
+    }
+
+    .radio-buttons {
+        flex-direction: column; /* Stack radio buttons vertically on smaller screens */
+    }
+
+    .join-button {
+        font-size: 90%; 
+        padding: 10px 20px; 
+    }
+}

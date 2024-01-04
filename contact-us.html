@@ -34,7 +34,41 @@
 
     </header>
 
-    <main> main</main>
+    <main>
+        <section id="contact">
+            <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2><i class="fa-solid fa-yoga"></i> Join our Yoga Community</h2>
+        
+                <label for="first_name">First Name:</label>
+                <input type="text" name="first_name" id="first_name" class="text-input" required>
+        
+                <label for="last_name">Last Name:</label>
+                <input type="text" name="last_name" id="last_name" class="text-input" required>
+        
+                <label for="email_address">Email Address:</label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required>
+        
+                <fieldset class="radio-buttons">
+                    <legend>Yoga Experience:</legend>
+                    <div>
+                        <input type="radio" name="yoga_experience" id="beginner" value="beginner" required checked>
+                        <label for="beginner">Beginner</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="yoga_experience" id="intermediate" value="intermediate" required>
+                        <label for="intermediate">Intermediate</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="yoga_experience" id="advanced" value="advanced" required>
+                        <label for="advanced">Advanced</label>
+                    </div>
+                </fieldset>
+        
+                <button type="submit" class="join-button">Start Your Yoga Journey</button>
+            </form>
+        </section>
+        
+    </main>
 
     <footer>
         <ul id="social-media">
@@ -50,7 +84,6 @@
     </footer>
     <!-- font awesome kit unique code -->
     <script src="https://kit.fontawesome.com/5b185ff159.js" crossorigin="anonymous"></script>
-</body>
 </body>
 
 </html>
