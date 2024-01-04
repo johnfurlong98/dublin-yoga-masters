@@ -174,7 +174,7 @@
 
  #contact-form {
      color: black;
-     background-color: rgba(196, 142, 111, 0.5);
+     background-color: rgba(196, 142, 111, 0.75);
      padding: 30px;
  }
 
@@ -239,6 +239,10 @@
          margin-bottom: -10px;
          column-count: 2;
          column-gap: 0;
+     }
+
+     #contact {
+        margin-top: -78px;
      }
  }
 
@@ -313,7 +317,6 @@
 
  /* Media query for adjusting the contact form on smaller screens (max-width: 767px) */
 @media screen and (max-width: 767px) {
-    /* Styles for screens with a maximum width of 767 pixels (smaller screens) */
 
     #contact-form {
         padding: 15px; 
