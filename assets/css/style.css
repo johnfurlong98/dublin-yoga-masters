@@ -149,6 +149,17 @@
     margin: 10px 0;
 }
 
+/* about us page*/
+
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+   line-height: 0; 
+}
+
  /* footer */
  footer {
      background-color: black;
