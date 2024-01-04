@@ -119,46 +119,46 @@
  }
 
  /* Reasons section */
-#reasons {
-    width: 95%;
-    margin: 20px auto;
-    background-color: black;
-    color: white;
-    padding: 20px;
-}
+ #reasons {
+     width: 95%;
+     margin: 20px auto;
+     background-color: black;
+     color: white;
+     padding: 20px;
+ }
 
-#reasons h2 {
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 2rem; 
-}
+ #reasons h2 {
+     margin-bottom: 20px;
+     text-align: center;
+     font-size: 2rem;
+ }
 
-#pros-physical,
-#pros-mental {
-    line-height: 1.5;
-    margin-bottom: 20px;
-}
+ #pros-physical,
+ #pros-mental {
+     line-height: 1.5;
+     margin-bottom: 20px;
+ }
 
-#pros p {
-    padding: 0 10px; 
-    color: white;
-}
+ #pros p {
+     padding: 0 10px;
+     color: white;
+ }
 
-#pros hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 10px 0;
-}
+ #pros hr {
+     border-top: 1px solid #3a3a3a;
+     margin: 10px 0;
+ }
 
-/* about us page*/
+ /* about us page*/
 
-#photos img {
-    width: 100%;
-    line-height: 1em;
-}
+ #photos img {
+     width: 100%;
+     line-height: 1em;
+ }
 
-#photos {
-   line-height: 0; 
-}
+ #photos {
+     line-height: 0;
+ }
 
  /* footer */
  footer {
@@ -177,6 +177,14 @@
      font-size: 160%;
      padding: 5%;
      color: white;
+ }
+
+ /* Media query for large or landscaped phones (576px and up)*/
+ @media screen and (min-width: 576px) {
+     #photos {
+         column-count: 2;
+         column-gap: 0;
+     }
  }
 
 
@@ -225,7 +233,7 @@
          font-size: 150%;
      }
 
-    
+
      /* Footer */
      #social-networks {
          text-align: center;
