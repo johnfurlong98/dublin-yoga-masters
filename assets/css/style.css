@@ -151,14 +151,17 @@
 
  /* about us page*/
 
- #photos img {
-     width: 100%;
-     line-height: 1em;
- }
+ 
 
- #photos {
-     line-height: 0;
- }
+     #photos img {
+         width: 100%;
+         line-height: 1em;
+     }
+
+     #photos {
+         line-height: 0;
+     }
+ 
 
  /* footer */
  footer {
@@ -182,6 +185,8 @@
  /* Media query for large or landscaped phones (576px and up)*/
  @media screen and (min-width: 576px) {
      #photos {
+        margin-top: -78px;
+        margin-bottom: -10px;
          column-count: 2;
          column-gap: 0;
      }
