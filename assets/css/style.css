@@ -149,10 +149,7 @@
      margin: 10px 0;
  }
 
- /* about us page*/
-
-
-
+ /* about us */
  #photos img {
      width: 100%;
      line-height: 1em;
@@ -160,6 +157,64 @@
 
  #photos {
      line-height: 0;
+ }
+
+ /*cover-text-2*/
+ #about-us {
+     position: relative;
+ }
+
+ #cover-text-2 {
+     background-color: rgba(196, 142, 111, 0.7);
+     padding: 30px;
+     text-align: center;
+     position: absolute;
+     top: 42%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     z-index: 2;
+ }
+
+ #cover-text-2 h2 {
+     font-size: 2rem;
+     margin-bottom: 20px;
+     color: black;
+ }
+
+ #cover-text-2 p {
+     font-size: 1.2rem;
+     margin-bottom: 10px;
+     color: white;
+ }
+
+ #cover-text-2 ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+ #cover-text-2 .class-info {
+     margin-bottom: 40px;
+ }
+
+ #cover-text-2 .class-info h3 {
+     font-size: 1.5rem;
+     margin-bottom: 10px;
+     color: black;
+ }
+
+ #cover-text-2 .class-info p {
+     font-size: 1.2rem;
+     color: white;
+ }
+
+ #photos {
+     position: relative;
+     z-index: 1;
+ }
+
+ #photos img {
+     width: 100%;
+     line-height: 1em;
  }
 
  /* contact us */
@@ -184,7 +239,6 @@
      margin-bottom: 20px;
  }
 
-
  .text-input {
      background: transparent;
      color: white;
@@ -196,13 +250,11 @@
      padding: 0 5px;
  }
 
-
  .radio-buttons {
      width: 100%;
      display: flex;
      justify-content: space-between;
  }
-
 
  .join-button {
      margin-top: 20px;
@@ -234,11 +286,11 @@
 
  /* Media query for large or landscaped phones (576px and up)*/
  @media screen and (min-width: 576px) {
-    #hero{
-        margin-top: -78px;
-    } 
-    
-    #photos {
+     #hero {
+         margin-top: -78px;
+     }
+
+     #photos {
          margin-top: -78px;
          margin-bottom: -10px;
          column-count: 2;
@@ -246,7 +298,7 @@
      }
 
      #contact {
-        margin-top: -78px;
+         margin-top: -78px;
      }
  }
 
@@ -295,7 +347,6 @@
          font-size: 150%;
      }
 
-
      /* Footer */
      #social-networks {
          text-align: center;
@@ -317,25 +368,26 @@
              border-bottom: 1px solid white;
          }
      }
-}
+ }
 
  /* Media query for adjusting the contact form on smaller screens (max-width: 767px) */
-@media screen and (max-width: 767px) {
+ @media screen and (max-width: 767px) {
 
-    #contact-form {
-        padding: 15px; 
-    }
+     #contact-form {
+         padding: 15px;
+     }
 
-    .text-input {
-        height: 35px; 
-    }
+     .text-input {
+         height: 35px;
+     }
 
-    .radio-buttons {
-        flex-direction: column; /* Stack radio buttons vertically on smaller screens */
-    }
+     .radio-buttons {
+         flex-direction: column;
+         /* Stack radio buttons vertically on smaller screens */
+     }
 
-    .join-button {
-        font-size: 90%; 
-        padding: 10px 20px; 
-    }
-}
+     .join-button {
+         font-size: 90%;
+         padding: 10px 20px;
+     }
+ }
