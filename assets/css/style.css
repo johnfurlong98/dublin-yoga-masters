@@ -1,156 +1,156 @@
- /* Google fonts import */
- @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
 
- /* Asterink wildcard selector overides default styles added by the browser*/
- * {
-     padding: 0;
-     margin: 0;
-     box-sizing: border-box;
- }
+/* Asterink wildcard selector overides default styles added by the browser*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
- /* general style */
- body {
-     min-height: 100vh;
-     display: flex;
-     flex-direction: column;
-     /* generic project styles */
-     color: white;
-     font-family: 'Nunito Sans', sans-serif;
- }
+/* general style */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* generic project styles */
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
 
- h1,
- h2,
- h3 {
-     font-family: 'Lato', sans-serif;
-     text-transform: uppercase;
-     letter-spacing: 1px;
-     color: white;
- }
+h1,
+h2,
+h3 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
 
- /* Header */
- header {
-     background-color: black;
-     padding: 0 2rem;
-     position: fixed;
-     z-index: 99;
-     width: 100%;
-     box-shadow: 0 4px 4px lightslategrey;
-     display: flex;
-     justify-content: space-between;
-     align-items: baseline;
- }
+/* Header */
+header {
+    background-color: black;
+    padding: 0 2rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 4px 4px lightslategrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
 
- header a {
-     text-decoration: none;
-     color: white;
- }
+header a {
+    text-decoration: none;
+    color: white;
+}
 
- #menu {
-     font-size: 115%;
-     letter-spacing: 3px;
-     list-style-type: none;
- }
+#menu {
+    font-size: 115%;
+    letter-spacing: 3px;
+    list-style-type: none;
+}
 
- #menu>li {
-     margin-bottom: 0.8em;
- }
+#menu>li {
+    margin-bottom: 0.8em;
+}
 
- .active {
-     border-bottom: 1px solid white;
- }
+.active {
+    border-bottom: 1px solid white;
+}
 
- /* navbar styled with dropdown toggle menu */
- nav {
-     position: absolute;
-     background-color: black;
-     width: 100%;
-     left: 0;
-     padding: 0 1rem;
-     box-shadow: 0 2px 2px lightslategray;
-     display: none;
-     top: 100%;
- }
+/* navbar styled with dropdown toggle menu */
+nav {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px lightslategray;
+    display: none;
+    top: 100%;
+}
 
- /* nav toggle */
- #nav-toggle:checked~nav {
-     display: block;
- }
+/* nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
 
- #nav-toggle {
-     display: none;
- }
+#nav-toggle {
+    display: none;
+}
 
- .nav-toggle-label {
-     font-size: 2rem;
- }
+.nav-toggle-label {
+    font-size: 2rem;
+}
 
- /* main content */
- main {
-     /*main element takes up space and pushes footer down*/
-     flex: 1 0 auto;
-     margin-top: 117px;
-     background-color: lightgray;
- }
+/* main content */
+main {
+    /*main element takes up space and pushes footer down*/
+    flex: 1 0 auto;
+    margin-top: 117px;
+    background-color: lightgray;
+}
 
- /* hero image */
- #hero {
-     height: 100vh;
-     width: 100%;
-     background: url(../images/ezgif.com-jpg-to-webp-converter.webp) no-repeat center center/cover;
-     background-size: cover;
-     position: relative;
- }
+/* hero image */
+#hero {
+    height: 100vh;
+    width: 100%;
+    background: url(../images/ezgif.com-jpg-to-webp-converter.webp) no-repeat center center/cover;
+    background-size: cover;
+    position: relative;
+}
 
- #cover-text {
-     /* rgba value makes it semi transparent*/
-     background-color: rgba(196, 142, 111, 0.5);
-     font-size: 120;
-     position: absolute;
-     bottom: 100px;
-     width: 75%;
-     min-height: 180px;
-     padding-top: 40px;
-     padding-left: 10px;
- }
+#cover-text {
+    /* rgba value makes it semi transparent*/
+    background-color: rgba(196, 142, 111, 0.5);
+    font-size: 120;
+    position: absolute;
+    bottom: 100px;
+    width: 75%;
+    min-height: 180px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
 
- #cover-text>h2,
- #cover-text>h3 {
-     color: black;
- }
+#cover-text>h2,
+#cover-text>h3 {
+    color: black;
+}
 
- /* Reasons section */
- #reasons {
-     width: 95%;
-     margin: 20px auto;
-     background-color: black;
-     color: white;
-     padding: 20px;
- }
+/* Reasons section */
+#reasons {
+    width: 95%;
+    margin: 20px auto;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
 
- #reasons h2 {
-     margin-bottom: 20px;
-     text-align: center;
-     font-size: 2rem;
- }
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
 
- #pros-physical,
- #pros-mental {
-     line-height: 1.5;
-     margin-bottom: 20px;
- }
+#pros-physical,
+#pros-mental {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
 
- #pros p {
-     padding: 0 10px;
-     color: white;
- }
+#pros p {
+    padding: 0 10px;
+    color: white;
+}
 
- #pros hr {
-     border-top: 1px solid #3a3a3a;
-     margin: 10px 0;
- }
+#pros hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 10px 0;
+}
 
- /* about us */
- #photos img {
+/* about us */
+#photos img {
     width: 100%;
     line-height: 1em;
 }
@@ -163,7 +163,7 @@
 #about-us {
     position: relative;
     background: url("../images/pexels-cottonbro-studio-4327045\ \(1\).webp") no-repeat center center/cover;
-   height: 100vh;
+    height: 100vh;
 }
 
 #cover-text-2 {
@@ -190,8 +190,8 @@
 }
 
 #cover-text-2 ul {
-   list-style-type: none; 
-   padding: 0;
+    list-style-type: none;
+    padding: 0;
 }
 
 #cover-text-2 .class-info {
@@ -219,193 +219,186 @@
     line-height: 1em;
 }
 
- /* contact us */
- #contact-us {
-     background-image: url("../images/pexels-cliff-booth-4057529\ \(1\).webp");
-     background-size: cover;
-     background-position: 75%;
-     padding: 20px 10% 0 10%;
-     flex-grow: 1;
- }
+/* contact us */
+#contact-us {
+    background-image: url("../images/pexels-cliff-booth-4057529\ \(1\).webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
 
 
- #contact-form {
-     color: black;
-     background-color: rgba(196, 142, 111, 0.75);
-     padding: 30px;
- }
+#contact-form {
+    color: black;
+    background-color: rgba(196, 142, 111, 0.75);
+    padding: 30px;
+}
 
 
- #contact-form>h2 {
-     color: black;
-     margin-bottom: 20px;
- }
+#contact-form>h2 {
+    color: black;
+    margin-bottom: 20px;
+}
 
- .text-input {
-     background: transparent;
-     color: white;
-     width: 100%;
-     height: 25px;
-     margin: 5px 0 20px 0;
-     border: 1px solid white;
-     border-radius: 2px;
-     padding: 0 5px;
- }
+.text-input {
+    background: transparent;
+    color: white;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 0 5px;
+}
 
- .radio-buttons {
-     width: 100%;
-     display: flex;
-     justify-content: space-between;
- }
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
- .join-button {
-     margin-top: 20px;
-     border-radius: 2px;
-     padding: 15px 32px;
-     font-size: 100%;
-     background-color: black;
-     color: white;
- }
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: black;
+    color: white;
+}
 
- /* footer */
- footer {
-     background-color: black;
- }
+/* footer */
+footer {
+    background-color: black;
+}
 
- #social-media {
-     text-align: center;
-     padding: 20px 0;
-     display: flex;
-     justify-content: space-evenly;
-     list-style-type: none;
- }
+#social-media {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
 
- #social-media i {
-     font-size: 160%;
-     padding: 5%;
-     color: white;
- }
+#social-media i {
+    font-size: 160%;
+    padding: 5%;
+    color: white;
+}
+ /* Small screens (up to 576px) */
+@media screen and (max-width: 576px) {
+    header {
+        padding: 1rem;
+    }
 
- /* Media query for large or landscaped phones (576px and up)*/
- @media screen and (min-width: 576px) {
-     #hero {
-         margin-top: -78px;
-     }
+    .logo {
+        font-size: 1.5rem;
+    }
 
-     #photos {
-         margin-top: -78px;
-         margin-bottom: -10px;
-         column-count: 2;
-         column-gap: 0;
-     }
+    nav {
+        justify-content: center;
+        flex: auto;
+    }
 
-     #contact {
-         margin-top: -78px;
-     }
- }
+    #menu {
+        flex-direction: column;
+        text-align: center;
+    }
 
- /* Media query for tablets and larger (768px and larger) */
- @media screen and (min-width: 768px) {
+    #menu>li {
+        margin-bottom: 1rem;
+    }
 
-     /* header */
-     nav {
-         display: block;
-         position: relative;
-         box-shadow: none;
-         width: fit-content;
-         padding-right: 1rem;
-     }
+    h1 {
+        font-size: 1.8rem;
+    }
 
-     #menu {
-         display: flex;
-     }
+    main {
+        padding: 0.5rem;
+    }
 
-     #menu>li {
-         padding-left: 1rem;
-     }
+    /* Other adjustments for small screens */
+}
 
-     .nav-toggle-lable {
-         display: none;
-     }
+/* Medium screens (577px to 768px) */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    header {
+        padding: 1.5rem;
+    }
 
-     logo {
-         font-size: 200%;
-         line-height: 75px;
-         margin: 0 0.5rem;
-     }
+    .logo {
+        font-size: 2rem;
+    }
 
-     /* Main content */
+    nav {
+        justify-content: center;
+        flex: auto;
+    }
 
-     main {
-         /*to move the main content down for the larger header */
-         margin-top: 53px;
-     }
+    #menu {
+        flex-direction: column;
+        text-align: center;
+    }
 
-     /* hero image */
-     #cover-text {
-         width: 400px;
-         right: 150px;
-         padding-left: 60px;
-         font-size: 150%;
-     }
+    #menu>li {
+        margin-bottom: 1rem;
+    }
 
-     /* about us */
-     #cover-text-2 {
-         bottom: 60%;
-     }
+    h1 {
+        font-size: 2rem;
+    }
 
-     /* Footer */
-     #social-networks {
-         text-align: center;
-         padding: 20px 0;
-         display: flex;
-         justify-content: space-evenly;
-         list-style-type: none;
-     }
+    main {
+        margin-top: 87px;
+        margin-bottom: -16px;
+    }
 
-     #social-networks i {
-         font-size: 160%;
-         padding: 5%;
-         color: #3a3a3a;
-     }
+    /* Other adjustments for medium screens */
+}
 
-     /* Media query for Laptops and desktops (992px and larger) */
-     @media screen and (min-width: 992px) {
-         #menu a:hover {
-             border-bottom: 1px solid white;
-         }
-     }
+/* Large screens (769px to 992px) */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    header {
+        padding: 2rem;
+    }
 
-     /* about us */
-     #cover-text-2 {
-         top: 25%;
-     }
+    .logo {
+        font-size: 2.5rem;
+    }
 
-     /* contact us*/
-     #contact{
-     margin-top: 52px;
-     margin-bottom: 69px;
-     }
- }
+    nav {
+        justify-content: flex-end;
+        flex: 1;
+    }
 
- /* Media query for adjusting the contact form on smaller screens (max-width: 767px) */
- @media screen and (max-width: 767px) {
+    h1 {
+        font-size: 2.5rem;
+    }
 
-     #contact-form {
-         padding: 15px;
-     }
+    main {
+        padding: 1.5rem;
+    }
 
-     .text-input {
-         height: 35px;
-     }
+    /* Other adjustments for large screens */
+}
 
-     .radio-buttons {
-         flex-direction: column;
-         /* Stack radio buttons vertically on smaller screens */
-     }
+/* Extra-large screens (992px and above) */
+@media screen and (min-width: 993px) {
+    header {
+        padding: 2.5rem;
+    }
 
-     .join-button {
-         font-size: 90%;
-         padding: 10px 20px;
-     }
- }
+    .logo {
+        font-size: 3rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    main {
+        padding: 2rem;
+    }
+
+    /* Other adjustments for extra-large screens */
+}
