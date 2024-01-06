@@ -96,7 +96,7 @@ main {
 #hero {
     height: 100vh;
     width: 100%;
-    background: url(../images/ezgif.com-jpg-to-webp-converter.webp) no-repeat center center/cover;
+    background: url(../images/ezgif.com-jpg-to-webp-converter_50.webp) no-repeat center center/cover;
     background-size: cover;
     position: relative;
 }
@@ -149,68 +149,68 @@ main {
     margin: 10px 0;
 }
 
-/*about us*/
-#about-us {
-    position: relative;
-    background: url("../images/pexels-cottonbro-studio-4327045\ \(1\).webp") no-repeat center center/cover;
-    min-height: 100vh;
-    display: flex;
-    align-items: center; 
-    justify-content: center; 
-}
-
-#cover-text-2 {
-    background-color: rgba(196, 142, 111, 0.7);
-    padding: 20px;
-    text-align: center;
-    max-width: 80%;
-}
-
-#cover-text-2 h2 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-    color: black;
-}
-
-#cover-text-2 p {
-    font-size: 1.1rem;
-    margin-bottom: 10px;
-    color: white;
-}
-
-#cover-text-2 ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-#cover-text-2 .class-info {
-    margin-bottom: 30px;
-}
-
-#cover-text-2 .class-info h3 {
-    font-size: 1.3rem;
-    margin-bottom: 10px;
-    color: black;
-}
-
-#cover-text-2 .class-info p {
-    font-size: 1rem;
-    color: white;
-}
-
-#photos {
-    position: relative;
-    z-index: 1;
-}
-
+/* about us */
 #photos img {
     width: 100%;
     line-height: 1em;
 }
 
+#photos {
+    line-height: 0;
+}
+
+/*cover-text-2*/
+#about-us {
+    background: url("../images/pexels-cottonbro-studio-4327045_1_953x1429.webp") no-repeat center center/cover;
+    position: relative;
+    min-height: 100vh; /* Use min-height to ensure the content is fully covered */
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    }
+    
+    #cover-text-2 {
+        background-color: rgba(196, 142, 111, 0.7);
+        padding: 20px;
+        text-align: center;
+        max-width: 80%;
+    }
+    
+    #cover-text-2 h2 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+        color: black;
+    }
+    
+    #cover-text-2 p {
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+        color: white;
+    }
+    
+    #cover-text-2 ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    #cover-text-2 .class-info {
+        margin-bottom: 30px;
+    }
+    
+    #cover-text-2 .class-info h3 {
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+        color: black;
+    }
+    
+    #cover-text-2 .class-info p {
+        font-size: 1rem;
+        color: white;
+    }
+    
 /* contact us */
 #contact-us {
-    background-image: url("../images/pexels-cliff-booth-4057529\ \(1\).webp");
+    background-image: url("../images/pexels-cliff-booth-4057529_50.webp");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -274,125 +274,101 @@ footer {
     padding: 5%;
     color: white;
 }
- /* Small screens (up to 576px) */
-@media screen and (max-width: 576px) {
-    /*header*/
-    .logo {
-        font-size: 1.5rem;
+
+/* Media query for large or landscaped phones (576px and up)*/
+@media screen and (min-width: 576px) {
+    #hero {
+        margin-top: -78px;
     }
 
-    nav {
-        justify-content: center;
-        flex: auto;
+    #photos {
+        margin-top: -78px;
+        margin-bottom: -10px;
+        column-count: 2;
+        column-gap: 0;
     }
 
-    #menu {
-        flex-direction: column;
-        text-align: center;
+    #contact {
+        margin-top: -78px;
     }
+}
 
-    #menu>li {
-        margin-bottom: 1rem;
-    }
-
-    h1 {
-        font-size: 1.8rem;
-    }
+/* Media query for tablets and larger (768px and larger) */
+@media screen and (min-width: 768px)  {
+    
+    /* Main content */
 
     main {
-        margin-top: 68px;
+        /*to move the main content down for the larger header */
+        margin-top: 53px;
+    }
+
+    /* hero image */
+    #cover-text {
+        width: 400px;
+        right: 150px;
+        padding-left: 60px;
+        font-size: 150%;
     }
 
     /* about us */
     #cover-text-2 {
-        margin-top: 80px;
-        margin-bottom: 1000px;
-    }
-}
-
-/* Medium screens (577px to 768px) */
-@media screen and (min-width: 577px) and (max-width: 768px) {
-    
-    /* header */
-    header {
-        padding: 1.5rem;
+        margin-top: 180px;
     }
 
-    .logo {
-        font-size: 2rem;
-    }
-
-    h1 {
-        font-size: 2rem;
-    }
-
-    main {
-        margin-top: 87px;
-        margin-bottom: -16px;
-    }
-
-    /* Other adjustments for medium screens */
-}
-
-/* Large screens (769px to 992px) */
-@media screen and (min-width: 769px) and (max-width: 992px) {
-    
-    /* header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
-
-    #menu {
+    /* Footer */
+    #social-networks {
+        text-align: center;
+        padding: 20px 0;
         display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
     }
 
-    #menu > li {
-        padding-left: 1rem;
+    #social-networks i {
+        font-size: 160%;
+        padding: 5%;
+        color: #3a3a3a;
     }
 
-    .nav-toggle-label {
-        display: none;
+    /* Media query for Laptops and desktops (992px and larger) */
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 1px solid white;
+        }
     }
 
-    header {
-        padding: 2rem;
+    /* about us */
+    #cover-text-2 {
+        top: 25%;
+        margin-bottom: 530px;
     }
 
-    .logo {
-        font-size: 2.5rem;
+    /* contact us*/
+    #contact {
+        margin-top: 52px;
+        margin-bottom: 69px;
     }
-
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    /* Other adjustments for large screens */
 }
 
-/* Extra-large screens (992px and above) */
-@media screen and (min-width: 993px) {
-    header {
-        padding: 2.5rem;
+/* Media query for adjusting the contact form on smaller screens (max-width: 767px) */
+@media screen and (max-width: 767px) {
+
+    #contact-form {
+        padding: 15px;
     }
 
-    .logo {
-        font-size: 3rem;
+    .text-input {
+        height: 35px;
     }
 
-    h1 {
-        font-size: 3rem;
+    .radio-buttons {
+        flex-direction: column;
+        /* Stack radio buttons vertically on smaller screens */
     }
 
-    main {
-        margin-top:137px;
+    .join-button {
+        font-size: 90%;
+        padding: 10px 20px;
     }
-
-    #menu a:hover{
-        border-bottom: 1px solid white;
-    }
-    /* Other adjustments for extra-large screens */
 }
