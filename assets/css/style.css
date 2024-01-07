@@ -88,7 +88,7 @@ nav {
 main {
     /*main element takes up space and pushes footer down*/
     flex: 1 0 auto;
-    margin-top: 117px;
+    margin-top: 78px;
     background-color: lightgray;
 }
 
@@ -150,64 +150,59 @@ main {
 }
 
 /* about us */
-#photos img {
-    width: 100%;
-    line-height: 1em;
-}
-
-#photos {
-    line-height: 0;
+#about-us p {
+    color: black;
 }
 
 /*cover-text-2*/
 #about-us {
     background: url("../images/pexels-cottonbro-studio-4327045_1_953x1429.webp") no-repeat center center/cover;
     position: relative;
-    min-height: 100vh; /* Use min-height to ensure the content is fully covered */
+    min-height: 100vh;
     display: flex;
-    align-items: center; /* Vertically center the content */
-    justify-content: center; /* Horizontally center the content */
-    }
-    
-    #cover-text-2 {
-        background-color: rgba(196, 142, 111, 0.7);
-        padding: 20px;
-        text-align: center;
-        max-width: 80%;
-    }
-    
-    #cover-text-2 h2 {
-        font-size: 2rem;
-        margin-bottom: 15px;
-        color: black;
-    }
-    
-    #cover-text-2 p {
-        font-size: 1.1rem;
-        margin-bottom: 10px;
-        color: white;
-    }
-    
-    #cover-text-2 ul {
-        list-style-type: none;
-        padding: 0;
-    }
-    
-    #cover-text-2 .class-info {
-        margin-bottom: 30px;
-    }
-    
-    #cover-text-2 .class-info h3 {
-        font-size: 1.3rem;
-        margin-bottom: 10px;
-        color: black;
-    }
-    
-    #cover-text-2 .class-info p {
-        font-size: 1rem;
-        color: white;
-    }
-    
+    align-items: center;
+    justify-content: center;
+}
+
+#cover-text-2 {
+    background-color: rgba(196, 142, 111, 0.7);
+    padding: 20px;
+    text-align: center;
+    max-width: 80%;
+}
+
+#cover-text-2 h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: black;
+}
+
+#cover-text-2 p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+#cover-text-2 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cover-text-2 .class-info {
+    margin-bottom: 30px;
+}
+
+#cover-text-2 .class-info h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+#cover-text-2 .class-info p {
+    font-size: 1rem;
+    color: black;
+}
+
 /* contact us */
 #contact-us {
     background-image: url("../images/pexels-cliff-booth-4057529_50.webp");
@@ -294,13 +289,12 @@ footer {
 }
 
 /* Media query for tablets and larger (768px and larger) */
-@media screen and (min-width: 768px)  {
-    
+@media screen and (min-width: 768px) {
+
     /* Main content */
 
     main {
-        /*to move the main content down for the larger header */
-        margin-top: 53px;
+        margin-top: 39px;
     }
 
     /* hero image */
@@ -314,6 +308,25 @@ footer {
     /* about us */
     #cover-text-2 {
         margin-top: 180px;
+    }
+
+    /* nav */
+    nav {
+        display: block;
+        /* Show the nav on tablets and larger screens */
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+        /* Display the menu items in a row on tablets and larger screens */
+    }
+
+    #menu>li {
+        padding-left: 1rem;
     }
 
     /* Footer */
