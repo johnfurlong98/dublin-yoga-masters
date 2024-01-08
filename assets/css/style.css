@@ -154,9 +154,9 @@ main {
     color: black;
 }
 
-/*cover-text-2*/
+/*background image*/
 #about-us {
-    background: url("../images/pexels-cottonbro-studio-4327045_1_953x1429.webp") no-repeat center center/cover;
+    background: url("../images/pexels-cottonbro-studio-4325439_2_953x1429.webp") no-repeat center center/cover;
     position: relative;
     min-height: 100vh;
     display: flex;
@@ -164,6 +164,7 @@ main {
     justify-content: center;
 }
 
+/*cover-text-2*/
 #cover-text-2 {
     background-color: rgba(196, 142, 111, 0.7);
     padding: 20px;
@@ -272,27 +273,27 @@ footer {
 
 /* Media query for large or landscaped phones (576px and up)*/
 @media screen and (min-width: 576px) {
+    main {
+        margin-top: 55px;
+    }
+    header {  
+        padding: 0 2rem 1rem ;
+    }
+    
     #hero {
         margin-top: -78px;
     }
 
-    #photos {
-        margin-top: -78px;
-        margin-bottom: -10px;
-        column-count: 2;
-        column-gap: 0;
+    #contact {
+        margin-top: 55px;   
     }
 
-    #contact {
-        margin-top: -78px;
-    }
 }
 
 /* Media query for tablets and larger (768px and larger) */
 @media screen and (min-width: 768px) {
 
     /* Main content */
-
     main {
         margin-top: 39px;
     }
@@ -313,7 +314,6 @@ footer {
     /* nav */
     nav {
         display: block;
-        /* Show the nav on tablets and larger screens */
         position: relative;
         box-shadow: none;
         width: fit-content;
@@ -322,11 +322,14 @@ footer {
 
     #menu {
         display: flex;
-        /* Display the menu items in a row on tablets and larger screens */
     }
 
     #menu>li {
         padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
     }
 
     /* Footer */
@@ -377,7 +380,6 @@ footer {
 
     .radio-buttons {
         flex-direction: column;
-        /* Stack radio buttons vertically on smaller screens */
     }
 
     .join-button {
