@@ -5,24 +5,33 @@ Welcome to Dublin Yoga Masters, your destination for professional yoga classes a
 ![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/yoga_masters_mockup.png)
 
 ## Features
-
-### Existing Features
+- **Header**
+  - The professional header showcases the Dublin Yoga Masters logo, creating a strong brand presence. The navigation menu provides quick access to essential sections, including Home, About Us, and Contact Us.
 
 - **Navigation Bar**
-  - Featured on all pages, the responsive navigation bar includes links to the Home, About Us, and Contact Us pages. It ensures easy navigation across the platform.
+  - Featured on all pages, the responsive navigation bar ensures seamless navigation. Links to the Home, About Us, and Contact Us pages provide a user-friendly experience.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/yoga_masters_nav.png)
+![Header and Nav Bar](Link to your header and nav bar image)
+
+- **Homepage**
+  - The homepage serves as the gateway to Dublin Yoga Masters. It features an elegant hero image, inviting users to explore the world of yoga. The cover text introduces the different class levels – Beginner, Intermediate, and Advanced – catering to practitioners at every stage.
+
+![Homepage](Link to your homepage image)
 
 - **About Us Section**
-  - Learn about Dublin Yoga Masters and discover the art of yoga with our expert instructors. Tailored classes are available for beginners, intermediate practitioners, and seasoned yogis.
+  - Dive into the essence of Dublin Yoga Masters with the About Us section. Expert instructors offer tailored classes for all levels – from foundational poses for beginners to advanced sequences for seasoned yogis.
 
 ![About Us](https://github.com/lucyrush/readme-template/blob/master/media/yoga_masters_about.png)
 
+- **Contact Us Page**
+  - Connect with the Dublin Yoga Masters community through the Contact Us page. Fill out the form to get in touch with our team and start your yoga journey.
+
+![Contact Us](Link to your Contact Us Page)
+
 - **Social Media Links in Footer**
-  - The footer includes links to Dublin Yoga Masters' social media platforms, fostering community engagement and connection.
+  - The footer features links to Dublin Yoga Masters' social media platforms, promoting community engagement and connection.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/yoga_masters_footer.png)
-
+![Footer]()
 ### Features Left to Implement
 
 - Future feature idea
