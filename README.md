@@ -16,7 +16,7 @@ Welcome to Dublin Yoga Masters, your destination for professional yoga classes a
 ![Header and Nav Bar](assets/images/readme-images/header.png)
 
 - **Homepage**
-  - The homepage serves as the gateway to Dublin Yoga Masters. It features an elegant hero image, inviting users to explore the world of yoga. The cover text introduces the different class levels – Beginner, Intermediate, and Advanced – catering to practitioners at every stage.
+  - The homepage serves as the gateway to Dublin Yoga Masters. It features an elegant hero image, inviting users to explore the world of yoga. The cover text introduces the name of the club and the location.
 
 ![Homepage](assets/images/readme-images/homepage.png)
 ![Homepage](assets/images/readme-images/homepage-reason-section.png)
