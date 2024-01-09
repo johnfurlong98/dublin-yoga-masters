@@ -20,7 +20,7 @@ Welcome to Dublin Yoga Masters, your destination for professional yoga classes a
 - **About Us Section**
   - Dive into the essence of Dublin Yoga Masters with the About Us section. Expert instructors offer tailored classes for all levels – from foundational poses for beginners to advanced sequences for seasoned yogis.
 
-![About Us](https://github.com/lucyrush/readme-template/blob/master/media/yoga_masters_about.png)
+![About Us]()
 
 - **Contact Us Page**
   - Connect with the Dublin Yoga Masters community through the Contact Us page. Fill out the form to get in touch with our team and start your yoga journey.
@@ -41,9 +41,9 @@ Welcome to Dublin Yoga Masters, your destination for professional yoga classes a
 ### Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fyour-yoga-masters-url%2Findex.html).
+  - No errors were returned when passing through the official [W3C validator]().
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fyour-yoga-masters-url%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css).
+  - No errors were found when passing through the official [(Jigsaw) validator]().
 
 ### Unfixed Bugs
 
@@ -57,7 +57,7 @@ The Dublin Yoga Masters website was deployed to GitHub Pages. Follow these steps
 2. From the source section drop-down menu, select the Master Branch.
 3. The page will automatically refresh, indicating successful deployment.
 
-The live link is [Dublin Yoga Masters](https://your-yoga-masters-url/index.html).
+The live link is [Dublin Yoga Masters]().
 
 ## Credits
 
