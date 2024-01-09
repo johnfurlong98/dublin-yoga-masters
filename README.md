@@ -2,7 +2,9 @@
 
 Welcome to Dublin Yoga Masters, your destination for professional yoga classes and tutorials in Dublin. Our platform is designed to enhance your well-being with expert instructors, offering tailored classes for all levels of experience.
 
-![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/yoga_masters_mockup.png)
+![Live Project](https://johnfurlong98.github.io/dublin-yoga-masters/)
+
+![responsive mockup](assets/images/readme-images/responsive-mockup.png)
 
 ## Features
 - **Header**
@@ -11,7 +13,7 @@ Welcome to Dublin Yoga Masters, your destination for professional yoga classes a
 - **Navigation Bar**
   - Featured on all pages, the responsive navigation bar ensures seamless navigation. Links to the Home, About Us, and Contact Us pages provide a user-friendly experience.
 
-![Header and Nav Bar](assets/images/readme-images/header .png)
+![Header and Nav Bar](assets/images/readme-images/header.png)
 
 - **Homepage**
   - The homepage serves as the gateway to Dublin Yoga Masters. It features an elegant hero image, inviting users to explore the world of yoga. The cover text introduces the different class levels – Beginner, Intermediate, and Advanced – catering to practitioners at every stage.
