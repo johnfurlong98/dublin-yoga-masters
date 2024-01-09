@@ -37,6 +37,7 @@ Welcome to Dublin Yoga Masters, your destination for professional yoga classes a
 - Future feature idea
 
 ## Testing
+![Tests]()
 
 ### Validator Testing
 
