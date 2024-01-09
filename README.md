@@ -2,6 +2,8 @@
 
 Welcome to Dublin Yoga Masters, your destination for professional yoga classes and tutorials in Dublin. Our platform is designed to enhance your well-being with expert instructors, offering tailored classes for all levels of experience.
 
+Test
+
 ![Live Project](https://johnfurlong98.github.io/dublin-yoga-masters/)
 
 ![responsive mockup](assets/images/readme-images/responsive-mockup.png)
@@ -18,37 +20,35 @@ Welcome to Dublin Yoga Masters, your destination for professional yoga classes a
 - **Homepage**
   - The homepage serves as the gateway to Dublin Yoga Masters. It features an elegant hero image, inviting users to explore the world of yoga. The cover text introduces the different class levels – Beginner, Intermediate, and Advanced – catering to practitioners at every stage.
 
-![Homepage](Link to your homepage image)
+![Homepage](assets/images/readme-images/homepage.png)
+![Homepage](assets/images/readme-images/homepage-reason-section.png)
+
 
 - **About Us Section**
   - Dive into the essence of Dublin Yoga Masters with the About Us section. Expert instructors offer tailored classes for all levels – from foundational poses for beginners to advanced sequences for seasoned yogis.
 
-![About Us]()
+![About Us](assets/images/readme-images/about-us-section.png)
 
 - **Contact Us Page**
   - Connect with the Dublin Yoga Masters community through the Contact Us page. Fill out the form to get in touch with our team and start your yoga journey.
 
-![Contact Us](Link to your Contact Us Page)
+![Contact Us](assets/images/readme-images/contact-us-section.png)
 
 - **Social Media Links in Footer**
   - The footer features links to Dublin Yoga Masters' social media platforms, promoting community engagement and connection.
 
-![Footer]()
-### Features Left to Implement
-
-- Future feature idea
+![Footer](assets/images/readme-images/footer.png)
 
 ## Testing
-![Tests]()
 
 ### Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator]().
+  - No errors were returned when passing through the official W3C validator.
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator]().
+  - No errors were found when passing through the official (Jigsaw) validator.
 
-### Unfixed Bugs
+### Bugs
 
 - Describe any unfixed bugs and reasons they were not fixed. Provide details about any shortcomings in frameworks or technologies used.
 
