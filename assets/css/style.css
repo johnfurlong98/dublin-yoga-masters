@@ -213,13 +213,11 @@ main {
     flex-grow: 1;
 }
 
-
 #contact-form {
     color: black;
     background-color: rgba(196, 142, 111, 0.75);
     padding: 30px;
 }
-
 
 #contact-form>h2 {
     color: black;
@@ -283,7 +281,8 @@ footer {
     #hero {
         margin-top: -78px;
     }
-/*contact-us*/
+
+    /*contact-us*/
     #contact {
         margin-top: 55px;   
     }
