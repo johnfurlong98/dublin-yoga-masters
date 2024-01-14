@@ -39,6 +39,14 @@ Welcome to Dublin Yoga Masters, your destination for professional yoga classes a
 
 ## Testing
 
+-I made sure that the form works, in every field.
+
+-I made sure that all pages are easy to naviagte and that everything is easy to read.
+
+-I made sure that the project is responsive and looks good on standard devices.
+   -
+   -
+
 ### Validator Testing
 
 - HTML
