@@ -15,7 +15,7 @@ Welcome to Dublin Yoga Masters, your destination for professional yoga classes a
 ![Header and Nav Bar](assets/images/readme-images/header.png)
 
 - **Homepage**
-  - The homepage serves as the gateway to Dublin Yoga Masters. It features an elegant hero image, inviting users to explore the world of yoga. The cover text introduces the name of the club and the location.
+  - The homepage serves as the gateway to Dublin Yoga Masters. It features a hero image, inviting users to explore the world of yoga. The cover text introduces the name of the club and the location.
 
 ![Homepage](assets/images/readme-images/homepage.png)
 ![Homepage](assets/images/readme-images/homepage-reason-section.png)
@@ -43,16 +43,16 @@ Welcome to Dublin Yoga Masters, your destination for professional yoga classes a
 -I made sure that all pages are easy to naviagte and that everything is easy to read.
 
 -I made sure that the project is responsive and looks good on standard devices. Including :
-   -Ipad Air          820 x 1180
-   -Ipad pro         1024 x 1366
-   -Ipad              768 x 1024
-   -iphone 6/7/8      375 x 667
-   -Iphone 12 pro     390 x 844
-   -Iphone 14 pro max 430 x 932
-   -Galaxy S8         360 x 740
-   -Galaxy S9         320 x 658
-   -Blackberry Z30    360 x 640
-   -Nest Hub         1024 x 600
+   - Ipad Air          820 x 1180
+   - Ipad pro         1024 x 1366
+   - Ipad              768 x 1024
+   - Iphone 6/7/8      375 x 667
+   - Iphone 12 pro     390 x 844
+   - Iphone 14 pro max 430 x 932
+   - Galaxy S8         360 x 740
+   - Galaxy S9         320 x 658
+   - Blackberry Z30    360 x 640
+   - Nest Hub         1024 x 600
 
 ### Validator Testing
 
@@ -60,22 +60,34 @@ Welcome to Dublin Yoga Masters, your destination for professional yoga classes a
   - I made sure there were no errors were returned when passing through the official W3C validator.
 - CSS
   - I made sure there were no errors were found when passing through the official (Jigsaw) validator.
+- Accessibility
+  - I made sure that the colors and fonts chosen are very easy to read and accesible by running it in lighthouse on devtools
+  ![Lighthouse](assets/images/readme-images/lighthouse2.png)
 
 ### Bugs
 
 - I had a bug with the favicon and was not showing in the browser tab due to wrong file path which was then corrected.
 
+### Deployment 
 
-The live link is [Dublin Yoga Masters]().
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the settings tab
+  - From the source section drop-down menu, select the Master Brranch
+  - Once the Master branch has been selected, the page provided the link to the completed website. 
+
+- The live link is [Dublin Yoga Masters](https://johnfurlong98.github.io/dublin-yoga-masters/).
 
 ## Credits
 
 ### Content
 
+- The code for the sign up form was taken from the CI [Love Running](https://github.com/johnfurlong98/Love-Running-Walkthrough-Project)Project.
 - Text on the About Us page was created by Dublin Yoga Masters.
 - Icons in the footer were obtained from [Font Awesome](https://fontawesome.com/).
 
 ### Media
 
-- Images used on the platform were sourced from open-source sites.
-
+- Images used on the platform were sourced from Pexels.
+- I used a JPG to WEBP coverter for my background images.(https://freecovert.com/)
+- I used a compressor to make my background images smaller. (https://tinypng.com/)
+- I used a resize image tool to also make my background images smaller. (https://simpleimageresizer.com/)
