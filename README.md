@@ -88,6 +88,9 @@ Welcome to Dublin Yoga Masters, your destination for professional yoga classes a
 ### Media
 
 - Images used on the platform were sourced from Pexels.
-- I used a JPG to WEBP coverter for my background images.(https://freecovert.com/)
+- I used a JPG to WEBP coverter for my background images.(https://www.freeconvert.com/jpg-to-webp)
 - I used a compressor to make my background images smaller. (https://tinypng.com/)
 - I used a resize image tool to also make my background images smaller. (https://simpleimageresizer.com/)
+
+### Icons 
+- For my Favicon I used Favicon generator. (https://favicon.io/favicon-generator/)
