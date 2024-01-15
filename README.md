@@ -81,7 +81,7 @@ Welcome to Dublin Yoga Masters, your destination for professional yoga classes a
 
 ### Content
 
-- The code for the sign up form was taken from the CI [Love Running](https://github.com/johnfurlong98/Love-Running-Walkthrough-Project)Project.
+- The code for the contact form was taken from the CI [Love Running](https://github.com/johnfurlong98/Love-Running-Walkthrough-Project)Project.
 - Text on the About Us page was created by Dublin Yoga Masters.
 - Icons in the footer were obtained from [Font Awesome](https://fontawesome.com/).
 
