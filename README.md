@@ -2,7 +2,6 @@
 
 Welcome to Dublin Yoga Masters, your destination for professional yoga classes and tutorials in Dublin. Our platform is designed to enhance your well-being with expert instructors, offering tailored classes for all levels of experience.
 
-![Live Project](https://johnfurlong98.github.io/dublin-yoga-masters/)
 
 ![responsive mockup](assets/images/readme-images/responsive-mockup.png)
 
@@ -35,7 +34,7 @@ Welcome to Dublin Yoga Masters, your destination for professional yoga classes a
 - **Social Media Links in Footer**
   - The footer features links to Dublin Yoga Masters' social media platforms, promoting community engagement and connection.
 
-![Footer](assets/images/readme-images/footer.png)
+![Footer](assets/images/readme-images/footer1.0.png)
 
 ## Testing
 
@@ -43,16 +42,24 @@ Welcome to Dublin Yoga Masters, your destination for professional yoga classes a
 
 -I made sure that all pages are easy to naviagte and that everything is easy to read.
 
--I made sure that the project is responsive and looks good on standard devices.
-   -
-   -
+-I made sure that the project is responsive and looks good on standard devices. Including :
+   -Ipad Air          820 x 1180
+   -Ipad pro         1024 x 1366
+   -Ipad              768 x 1024
+   -iphone 6/7/8      375 x 667
+   -Iphone 12 pro     390 x 844
+   -Iphone 14 pro max 430 x 932
+   -Galaxy S8         360 x 740
+   -Galaxy S9         320 x 658
+   -Blackberry Z30    360 x 640
+   -Nest Hub         1024 x 600
 
 ### Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official W3C validator.
+  - I made sure there were no errors were returned when passing through the official W3C validator.
 - CSS
-  - No errors were found when passing through the official (Jigsaw) validator.
+  - I made sure there were no errors were found when passing through the official (Jigsaw) validator.
 
 ### Bugs
 
