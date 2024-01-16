@@ -137,3 +137,7 @@ Welcome to Dublin Yoga Masters, your destination for professional yoga classes a
 ### Media
 
 - Images used on the platform were sourced from Pexels.
+
+### Thanks 
+
+- I would like to thank the support from my mentor and tutors that help me finish my first project.
