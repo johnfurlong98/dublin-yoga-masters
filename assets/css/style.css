@@ -13,7 +13,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* generic project styles */
     color: white;
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -86,7 +85,6 @@ nav {
 
 /* main content */
 main {
-    /*main element takes up space and pushes footer down*/
     flex: 1 0 auto;
     margin-top: 78px;
     background-color: lightgray;
@@ -102,7 +100,6 @@ main {
 }
 
 #cover-text {
-    /* rgba value makes it semi transparent*/
     background-color: rgba(196, 142, 111, 0.5);
     font-size: 120%;
     position: absolute;
