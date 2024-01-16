@@ -13,7 +13,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: white;
+    color: #fff;
     font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -23,17 +23,17 @@ h3 {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: white;
+    color: #fff;
 }
 
 /* Header */
 header {
-    background-color: black;
+    background-color:#000;
     padding: 0 2rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 4px 4px lightslategrey;
+    box-shadow: 0 4px 4px #778899;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -41,7 +41,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: white;
+    color: #fff;
 }
 
 #menu {
@@ -55,17 +55,17 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #fff;
 }
 
 /* navbar styled with dropdown toggle menu */
 nav {
     position: absolute;
-    background-color: black;
+    background-color: #000;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px lightslategray;
+    box-shadow: 0 2px 2px #778899;
     display: none;
     top: 100%;
 }
@@ -87,7 +87,7 @@ nav {
 main {
     flex: 1 0 auto;
     margin-top: 78px;
-    background-color: lightgray;
+    background-color: #f5f5f5;
 }
 
 /* hero image */
@@ -112,15 +112,15 @@ main {
 
 #cover-text>h2,
 #cover-text>h3 {
-    color: black;
+    color: #000;
 }
 
 /* Reasons section */
 #reasons {
     width: 95%;
     margin: 20px auto;
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
     padding: 20px;
 }
 
@@ -138,7 +138,7 @@ main {
 
 #pros p {
     padding: 0 10px;
-    color: white;
+    color: #fff;
 }
 
 #pros hr {
@@ -148,7 +148,7 @@ main {
 
 /* about us */
 #about-us p {
-    color: black;
+    color: #000;
 }
 
 /*background image*/
@@ -172,13 +172,13 @@ main {
 #cover-text-2 h2 {
     font-size: 2rem;
     margin-bottom: 15px;
-    color: black;
+    color: #000;
 }
 
 #cover-text-2 p {
     font-size: 1.1rem;
     margin-bottom: 10px;
-    color: black;
+    color: #000;
 }
 
 #cover-text-2 ul {
@@ -193,12 +193,12 @@ main {
 #cover-text-2 .class-info h3 {
     font-size: 1.3rem;
     margin-bottom: 10px;
-    color: black;
+    color: #000;
 }
 
 #cover-text-2 .class-info p {
     font-size: 1rem;
-    color: black;
+    color: #000;
 }
 
 /* contact us */
@@ -211,23 +211,23 @@ main {
 }
 
 #contact-form {
-    color: black;
+    color: #000;
     background-color: rgba(196, 142, 111, 0.75);
     padding: 30px;
 }
 
 #contact-form>h2 {
-    color: black;
+    color: #000;
     margin-bottom: 20px;
 }
 
 .text-input {
     background: transparent;
-    color: white;
+    color: #fff;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid white;
+    border: 1px solid #fff;
     border-radius: 2px;
     padding: 0 5px;
 }
@@ -243,13 +243,13 @@ main {
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
 }
 
 /* footer */
 footer {
-    background-color: black;
+    background-color: #000;
 }
 
 #social-media {
@@ -263,7 +263,7 @@ footer {
 #social-media i {
     font-size: 160%;
     padding: 5%;
-    color: white;
+    color: #fff;
 }
 
 /* Media query for large or landscaped phones (576px and up)*/
@@ -346,7 +346,7 @@ footer {
     /* Media query for Laptops and desktops (992px and larger) */
     @media screen and (min-width: 992px) {
         #menu a:hover {
-            border-bottom: 1px solid white;
+            border-bottom: 1px solid #fff;
         }
     }
 

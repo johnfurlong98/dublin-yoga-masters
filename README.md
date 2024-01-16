@@ -51,11 +51,15 @@ Welcome to Dublin Yoga Masters, your destination for professional yoga classes a
 
 ## Testing
 
--I made sure that the form works, in every field.
+- I made sure that the form works, in every field.
 
--I made sure that all pages are easy to navigate and that everything is easy to read.
+- I made sure that all pages are easy to navigate and that everything is easy to read.
 
--I made sure that the project is responsive and looks good on standard devices. Including :
+- I made sure All images load on each page.
+
+- I made sure that all buttons and links work on the page to easily navigate with no problems.
+
+- I made sure that the project is responsive and looks good on standard devices. Including :
    - Ipad Air          820 x 1180
    - Ipad pro         1024 x 1366
    - Ipad              768 x 1024
@@ -85,10 +89,30 @@ Welcome to Dublin Yoga Masters, your destination for professional yoga classes a
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
   - In the GitHub repository, navigate to the settings tab
-  - From the source section drop-down menu, select the Master Brranch
+  - From the source section drop-down menu, select the Master Branch
   - Once the Master branch has been selected, the page provided the link to the completed website. 
 
 - The live link is [Dublin Yoga Masters](https://johnfurlong98.github.io/dublin-yoga-masters/).
+
+### Forking this project
+- Fork this project by:
+- Open [Github]()
+- on the project to be deployed.
+- Go to the "Settings".
+- Go down to the "GitHub Pages".
+- Click on "Check it out here!".
+- Click the "main" branch and select "Save".
+
+### Cloning This Project
+- Clone this project following the steps:
+- Open GitHub.
+- Click on the project to be cloned.
+- You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon to copy the URL.
+- Once you click the button the fork will be in your repository.
+- Open a new terminal.
+- Change the current working directory to the location that you want the cloned directory.
+- Type 'git clone' and paste the URL copied in previous steps.
+- Click 'Enter' and the project is cloned.
 
 ## Credits
 
