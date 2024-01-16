@@ -74,9 +74,9 @@ Welcome to Dublin Yoga Masters, your destination for professional yoga classes a
 ### Validator Testing
 
 - HTML
-  - I made sure there were no errors were returned when passing through the official W3C validator.
+  - I made sure there were no errors were returned when passing through the official W3C validator. (https://validator.w3.org/)
 - CSS
-  - I made sure there were no errors were found when passing through the official (Jigsaw) validator.
+  - I made sure there were no errors were found when passing through the official (Jigsaw) validator.(https://jigsaw.w3.org/css-validator/)
 - Accessibility
   - I made sure that the colors and fonts chosen are very easy to read and accesible by running it in lighthouse on devtools
   ![Lighthouse](readme-images/lighthouse2.png)
