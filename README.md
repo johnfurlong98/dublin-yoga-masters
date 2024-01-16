@@ -140,4 +140,4 @@ Welcome to Dublin Yoga Masters, your destination for professional yoga classes a
 
 ### Thanks 
 
-- I would like to thank the support from my mentor and tutors that help me finish my first project.
+- I would like to thank the support from my mentor and tutors that helped me finish my first project.
