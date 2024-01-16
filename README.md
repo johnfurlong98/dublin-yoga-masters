@@ -5,6 +5,18 @@ Welcome to Dublin Yoga Masters, your destination for professional yoga classes a
 
 ![responsive mockup](readme-images/responsive-mockup.png)
 
+## User Experience - UX
+
+### User Stories
+
+**I want to:**
+
+- Create a website with a visually appealing design that captures users from their initial visit, sparking their curiosity to explore every page. Develop an intuitively navigable website to enhance the user experience.
+
+**As a website visitor:**
+
+- Grasp the primary goal of the website. Ensure seamless navigation, allowing users to effortlessly locate information on yoga classes. Facilitate easy communication with the company for additional details.
+
 ## Features
 - **Header**
   - The professional header showcases the Dublin Yoga Masters logo, creating a strong brand presence. The navigation menu provides quick access to essential sections, including Home, About Us, and Contact Us.
